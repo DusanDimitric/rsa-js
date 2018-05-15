@@ -1,0 +1,22 @@
+{
+  "name": "rsa-js",
+  "version": "0.1.0",
+  "description": "A set of functions written in javascript that let you encrypt and decrypt messages using RSA encryption.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Johannes Carlsen <hannes.mcman@gmail.com> (https://hannesmcman.github.io)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  },
+  "dependencies": {
+    "big-integer": "^1.6.28",
+    "lodash": "^4.17.10"
+  }
+}
