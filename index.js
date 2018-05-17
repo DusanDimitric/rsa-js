@@ -34,12 +34,12 @@ module.exports = {
     const d = e.modInv(lambda);
     return {
       private: {
-        d: d,
-        n: n,
+        d: d.toString(),
+        n: n.toString(),
       },
       public: {
-        e: e,
-        n: n,
+        e: e.toString(),
+        n: n.toString(),
       }
     }
   },
